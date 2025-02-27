@@ -16,6 +16,7 @@ body{
 .right-side{
     display: flex;
     flex-direction: column;
+    background-color: #f7f7f7;
 }
 
 .left-side{
@@ -60,3 +61,28 @@ body{
 .credit a{
     color: white;
 }
+
+.text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.right-side > *{
+    padding-left: 5%;
+    padding-right: 32%;
+}
+
+form{
+    background-color: white;
+    margin-top: 5%;
+}
+
+.right-side > .description{
+    margin-top: 9%;
+}
+
+.right-side > .encouragement{
+    margin-top: 3%;
+}
+
