@@ -127,5 +127,11 @@ input{
 input:focus{
     border: 2px solid rgb(82, 82, 242);
     box-shadow: 0 3px 15px -5px grey;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+input:invalid{
+    border-color: red;
 }
 
